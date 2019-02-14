@@ -1,0 +1,245 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 34110724078,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 20,
+        "name": "tfl journey options",
+        "description": "",
+        "id": "tfl;tfl-journey-options;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 34986,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 14280892108,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I entered url",
+            "match": {
+              "location": "MyStepdefs_sd.iEnteredUrl()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 416549689,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I entered journey from \"London Bridge\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "London Bridge",
+                  "offset": 24
+                }
+              ],
+              "location": "MyStepdefs_sd.i_entered(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 432270195,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I entered journey to \"Watford Junction\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Watford Junction",
+                  "offset": 22
+                }
+              ],
+              "location": "MyStepdefs_sd.iEnteredTo(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 11322362329,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I clicked plan my journey button",
+            "match": {
+              "location": "MyStepdefs_sd.i_clicked_plan_my_journey()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 76449576,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I should see expected result \"Journey results\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Journey results",
+                  "offset": 30
+                }
+              ],
+              "location": "MyStepdefs_sd.iCheckedAcceptedResult(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 36540098,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I should see header text journey from \"London Bridge\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "London Bridge",
+                  "offset": 39
+                }
+              ],
+              "location": "MyStepdefs_sd.iShouldSeeHeaderTextJourneyFrom(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 150948009,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I should see header text journey to \"Watford Junction\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Watford Junction",
+                  "offset": 37
+                }
+              ],
+              "location": "MyStepdefs_sd.iShouldSeeHeaderTextJourneyTo(String)"
+            },
+            "matchedColumns": [
+              4
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 22763054,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I should see header text Travel preferences \u0026 accessibility:",
+            "match": {
+              "location": "MyStepdefs_sd.iShouldSeeHeaderTextTravelPreferencesAndAccessibility()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 321871237,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I clicked edit journey hyperlink",
+            "match": {
+              "location": "MyStepdefs_sd.iClickedEditJourneyHyperlink()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 254226766,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I should switch journey plan",
+            "match": {
+              "location": "MyStepdefs_sd.iShouldSwitchJourneyPlan()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 288046442,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I clicked Edit preferences and accessibility",
+            "match": {
+              "location": "MyStepdefs_sd.iClickedEditPreferencesAndAccessbility()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 324851499,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I should select option Step-free to platform only",
+            "match": {
+              "location": "MyStepdefs_sd.iShouldSelectOptionStepFreeToPlatformOnly()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4621061767,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I should see the current url",
+            "match": {
+              "location": "MyStepdefs_sd.iShouldSeeTheCurrenturl()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "tfl",
+    "description": "",
+    "id": "tfl",
+    "keyword": "Feature",
+    "uri": "featurefile.feature"
+  }
+]
